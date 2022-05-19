@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9c2b151-8278-4632-a2ce-3c89aea16d15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/dubbo/framework/DubboRpcFramework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/dubbo/service/IDubboDemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/dubbo/service/impl/DubboDemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/config/CarConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/dao/DataDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/dao/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/jdk/BlackCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/jdk/CGLibTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/jdk/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/jdk/CatProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/jdk/IAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/pojo/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/quartz/MyJobFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/quartz/QuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/scheduled/MyJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/scheduled/QuartzDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/scheduled/QuartzJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/service/IHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/service/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/service/impl/HelloImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/service/proxy/HelloProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/target/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/resources/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/main/resources/redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/test/java/com/springdata/springdata_jpa/CarAspectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/test/java/com/springdata/springdata_jpa/DataDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/test/java/com/springdata/springdata_jpa/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/test/java/com/springdata/springdata_jpa/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springdata_jpa/src/test/java/com/springdata/springdata_jpa/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/SpringdataJpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/SpringdataJpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/pojo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/pojo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/pojo/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa/src/main/java/com/springdata/springdata_jpa/pojo/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springdata_jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springdata_jpa/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/springdata_jpa" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.3/libexec" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1q34mH9StQ5jb6WK1KdjxPADoxX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.10693877" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Plate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sap.bean.Plate" />
+      <module name="spring-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sap.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Plate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9c2b151-8278-4632-a2ce-3c89aea16d15" name="Default Changelist" comment="" />
+      <created>1616295096997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616295096997</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>

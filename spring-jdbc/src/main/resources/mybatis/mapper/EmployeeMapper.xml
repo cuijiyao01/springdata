@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sap.mapper.EmployeeMapper">
+  <resultMap id="emp" type="Employee">
+    <id column="id" property="id"/>
+    <result column="last_name" property="lastName" jdbcType="VARCHAR" javaType="String"/>
+    <result column="gender" property="gender" jdbcType="INTEGER" javaType="Integer"/>
+    <result column="email" property="email" jdbcType="VARCHAR" javaType="String"/>
+    <result column="d_id" property="dId" jdbcType="INTEGER" javaType="Integer"/>
+  </resultMap>
+  <sql id="query_emp_where">
+    <if test="id!=null">
+      and id = #{id,jdbcType=INTEGER}
+    </if>
+    <if test="name!=null and name.trim()!=''">
+      and last_name = #{name,jdbcType=VARCHAR}
+    </if>
+    <if test="gender!=null">
+      and gender = #{gender,jdbcType=INTEGER}
+    </if>
+  </sql>
+  <sql id="all_cols">
+    id,last_name,email,gender,d_id
+  </sql>
+  <select id="getEmployee" parameterType="Integer" resultMap="emp">
+    select
+    <include refid="all_cols"></include>
+    from employee
+    <where>
+      id = #{id,jdbcType=INTEGER}
+    </where>
+  </select>
+
+  <insert id="insert" parameterType="Employee" useGeneratedKeys="true" keyProperty="id">
+    insert into employee
+    (
+    last_name,gender,email,d_id
+    )
+    values
+    (
+    #{lastName,jdbcType=VARCHAR},#{gender,jdbcType=INTEGER},#{email,jdbcType=VARCHAR},#{dId,jdbcType=INTEGER}
+    )
+  </insert>
+
+  <update id="update" parameterType="Employee">
+    update employee
+    <set>
+      <if test="lastName!=null and lastName.trim()!=''">
+        last_name=#{lastName,jdbcType=VARCHAR},
+      </if>
+      <if test="gender!=null">
+        gender=#{gender,jdbcType=INTEGER},
+      </if>
+      <if test="email!=null and email.trim()!=''">
+        email=#{email,jdbcType=VARCHAR},
+      </if>
+      <if test="dId!=null">
+        d_id=#{dId,jdbcType=INTEGER}
+      </if>
+    </set>
+    <where>
+      <include refid="query_emp_where"></include>
+    </where>
+  </update>
+
+  <delete id="delete" parameterType="integer">
+    delete from employee
+    <where>
+      <include refid="query_emp_where"></include>
+    </where>
+  </delete>
+
+  <select id="getEmpByName" parameterType="hashmap" resultMap="emp">
+    select
+    <include refid="all_cols"></include>
+    from employee
+    <where>
+      <include refid="query_emp_where"></include>
+    </where>
+  </select>
+</mapper>

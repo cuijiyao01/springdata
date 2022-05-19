@@ -1,0 +1,13 @@
+package com.sap.bean;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@ToString(callSuper = true)
+public class Department {
+    private Integer id;
+    private String departmentName;
+}
